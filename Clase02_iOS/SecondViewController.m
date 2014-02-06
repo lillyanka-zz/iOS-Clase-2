@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.textEnterLabel.text = self.contentLabel;
 }
 
 - (void)didReceiveMemoryWarning

@@ -70,12 +70,16 @@
 }
 
 - (IBAction)btn_go:(id)sender {
+    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     SecondViewController *secondView = [storyboard instantiateViewControllerWithIdentifier:@"SecondView"];
-    
+    secondView.contentLabel = self.userEnterText.text;
     [self.navigationController pushViewController:secondView animated:YES];
+    
 }
 
+- (IBAction)userEnterText:(id)sender {
+}
 
 
 

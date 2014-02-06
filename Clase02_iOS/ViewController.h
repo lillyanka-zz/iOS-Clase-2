@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class SecondViewController;
+
 @interface ViewController : UIViewController <UITextFieldDelegate>{
     NSArray *phrases;
 }
@@ -17,7 +19,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *lbl_prediction;
 - (IBAction)btn_prediction:(id)sender;
 - (IBAction)btn_go:(id)sender;
-
+@property (strong, nonatomic) IBOutlet UITextField *userEnterText;
+@property (strong, nonatomic) SecondViewController *secondView;
 
 
 

@@ -10,5 +10,6 @@
 
 @interface SecondViewController : UIViewController
 @property (strong, nonatomic) NSString *contentLabel;
+@property (strong, nonatomic) IBOutlet UILabel *textEnterLabel;
 
 @end
