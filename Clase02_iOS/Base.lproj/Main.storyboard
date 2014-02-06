@@ -4,6 +4,25 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
+        <!--Second View Controller-->
+        <scene sceneID="fi9-EM-9dT">
+            <objects>
+                <viewController storyboardIdentifier="SecondView" id="fjz-bc-eMu" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="64g-CW-xfm"/>
+                        <viewControllerLayoutGuide type="bottom" id="PNz-tQ-NtM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jum-X1-S2P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yUR-MB-sSk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DfS-tW-Zjz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="163"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -60,33 +79,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="589" y="163"/>
-        </scene>
-        <!--Second View Controller-->
-        <scene sceneID="E1E-tD-Zhd">
-            <objects>
-                <viewController storyboardIdentifier="SecondView" id="t2x-Y1-wZe" customClass="SecondViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="I6z-Ak-o4C"/>
-                        <viewControllerLayoutGuide type="bottom" id="y9I-mH-pvV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UJq-M6-30d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNK-hi-UND">
-                                <rect key="frame" x="143" y="43" width="35" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cCW-cN-www" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="950" y="163"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H9e-mc-KEQ">

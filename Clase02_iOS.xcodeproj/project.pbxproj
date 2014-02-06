@@ -970,6 +970,7 @@
 				C9CAFEFA1899E0F5000A510F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9CAFEFB1899E0F5000A510F /* Build configuration list for PBXNativeTarget "Clase02_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -978,6 +979,7 @@
 				C9CAFEFD1899E0F5000A510F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

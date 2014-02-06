@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
+@interface ViewController : UIViewController <UITextFieldDelegate>{
     NSArray *phrases;
 }
 
@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lbl_prediction;
 - (IBAction)btn_prediction:(id)sender;
 - (IBAction)btn_go:(id)sender;
+
 
 
 
